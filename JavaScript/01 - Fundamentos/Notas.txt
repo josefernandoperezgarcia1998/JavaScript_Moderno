@@ -1,4 +1,4 @@
-Episodio - Hola mundo:
+******9.- Hola mundo:******
 
 1.-Se puede introducir codigo JS de diferentes formas
 Por medio de un archivo independiente .js
@@ -7,9 +7,141 @@ Por medio de entrar node y escribir el código js
 Por medio de entrar node y ejecutar el archivo
 Por medio de la consola
 
+
+
+
+
+
+
+
+
+******10.- Introducción a variables y comentarios******
+
 Variables: Es un contenedor de información que apunta a un lugar en memoria. Una variable puede cambiar ó no su valor en un futuro.
+
+let es lo que normalmente se debe de utilizar para declarar variables
+var ya no se debería de usar para declerar variables
+const es una constante que no se debe modificar su valor
 
 Buena práctica para comentar (dejar un espacio entre los dos slash).
 
 Polyfill: Se usa para ejecutar código moderno de js en versiones anteriores de js.
 
+
+
+
+
+
+
+
+
+******11.-Introducción a la consola******
+JavaScript es un lenguaje interpretado (de manera secuencial lee el código)
+
+Para mostrar mensajes por consola se puede utilizar los siguientes métodos del objeto console
+
+console.log
+console.info
+console.warn
+console.alert
+console.table
+
+Ejemplo:
+	console.log(x);
+	console.log({x});
+	console.table({a,b,c});
+
+
+
+
+
+
+
+
+
+
+******12.-Depuración y breakpoints******
+Un breakpoint es cuando nosotros queremos saber el estado de la aplicación ó que, queremos saber hasta
+que punto del código nosotros queremos saber que ocurre, cual es el estado de las variables, etc.
+
+Un breakpoint se activa desde la consola del navegador > Sources > Abrir el archivo .js
+y seleccionar el número de la línea hasta donde se desea saber el estado del código.
+
+También se puede depurar desde vscode, dando clic al numero de la línea de vscode, después se va a "Debug" > "Start debugging" > Node.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******13.-Orden y lugar de las importaciones******
+1.-Se debe de poner el nombre de los scripts de JS en dos diferentes lugares,
+bien puede ser hasta abajo (arriba de la etiqueta de cierre del body) ó dentro del head del html
+
+2.-Es buena práctica poner los scripts de js hasta abajo antes del body (y otros de librerías etc en el head).
+
+3.-No se debe usar el tipo de dato "var" porque forma parte del objeto global window.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******13.-Principal problema con la inicialización de variables con var******
+
+1.-let y const no modifican las propiedades del objeto global "window", por otro lado var si lo hace
+
+2.-Cualquier variable en JS que no tenga un valor lo denomina como "undefined"
+
+3.-Se debe utilizar "var" solo para la compatibilidad con navegadores viejitos
+
+4.-Se debe utilizar hoy en día let y const para definir nuestras variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******14.-Prompt, alert y confirm******
+
+0.5.-prompt(), alert() y confirm() vienen del objeto global windows
+
+1.-En un "prompt" se puede recibir valores por el usuario: Vacíos '', definidos 'fer', ó null
+
+2.-Null no es lo mismo que undefined
+
+3.-En un "confirm" se puede confirmar o mostrar alguna pantalla al usuario si acepta o no acepta
