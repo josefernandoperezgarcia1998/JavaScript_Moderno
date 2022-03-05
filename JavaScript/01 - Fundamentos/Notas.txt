@@ -221,4 +221,26 @@ p.ej. "crear-pizza.js" es correcto PERO es mala práctica hacer "crearPizza.js"
 
 5.-En JS cuando se tiene un punto "objeto.metodo" se refiere cuando se quiere acceder al método de un objeto
 
-6.-Nombrar las variables con un nombre significativo.
+6.-Nombrar las variables con un nombre significativo y en lowerCamelCase.
+
+7.-Para nombrar clasese de UppercamelCase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******22.-Arreglos******
+
+1.-Arreglos: Son un objeto muy parecido a una lista de información que contiene un grupo de elementos.
+
+2.-Usualmente, esa información dentro del arreglo es del mismo tipo de dato.
+
