@@ -110,7 +110,7 @@ bien puede ser hasta abajo (arriba de la etiqueta de cierre del body) ó dentro 
 
 
 
-******13.-Principal problema con la inicialización de variables con var******
+******14.-Principal problema con la inicialización de variables con var******
 
 1.-let y const no modifican las propiedades del objeto global "window", por otro lado var si lo hace
 
@@ -136,7 +136,7 @@ bien puede ser hasta abajo (arriba de la etiqueta de cierre del body) ó dentro 
 
 
 
-******14.-Prompt, alert y confirm******
+******15.-Prompt, alert y confirm******
 
 0.5.-prompt(), alert() y confirm() vienen del objeto global windows
 
@@ -145,3 +145,49 @@ bien puede ser hasta abajo (arriba de la etiqueta de cierre del body) ó dentro 
 2.-Null no es lo mismo que undefined
 
 3.-En un "confirm" se puede confirmar o mostrar alguna pantalla al usuario si acepta o no acepta
+
+4.-En node no existe el objeto "window"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******19.-Tipos de datos primitivos******
+
+JS es débilmente tipado, o sea no te exige que sea "int", "double", etc al momento de declararla
+Primitivo: Es una información que no es un objeto y son inmutables
+
+Tipos de datos (6):
+Boolean - True/False :: Verdadero/Falso
+Null - Sin valor en lo absoluto
+Undefined - Una variable declarada que todavía no contiene un valor ó se le asigna un valor
+Number - En JS solamente exise un tipo de valor y es "number", son integers, floats, etc
+String - Una cadena de caracteres, P. ej. palabras, nombre de personas
+Symbol - Es un valor único que no es igual a ningún otro valor.
+
+
+
+
+
+
+
+
+
+
+
+
+******20.-Introducción general a los tipos primitivos******
+
+=> Ver archivo primitivos.js
