@@ -1,0 +1,15 @@
+Episodio - Hola mundo:
+
+1.-Se puede introducir codigo JS de diferentes formas
+Por medio de un archivo independiente .js
+Por medio de incrustar una etiqueta script en el html
+Por medio de entrar node y escribir el código js
+Por medio de entrar node y ejecutar el archivo
+Por medio de la consola
+
+Variables: Es un contenedor de información que apunta a un lugar en memoria. Una variable puede cambiar ó no su valor en un futuro.
+
+Buena práctica para comentar (dejar un espacio entre los dos slash).
+
+Polyfill: Se usa para ejecutar código moderno de js en versiones anteriores de js.
+
