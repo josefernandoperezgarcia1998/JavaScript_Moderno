@@ -191,3 +191,34 @@ Symbol - Es un valor único que no es igual a ningún otro valor.
 ******20.-Introducción general a los tipos primitivos******
 
 => Ver archivo primitivos.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******21.-Palabras reservadas y nombre de variables******
+
+1.-Es mala práctica crear archivos con camelcase, se recomienda hacerlo con un "-"
+p.ej. "crear-pizza.js" es correcto PERO es mala práctica hacer "crearPizza.js"
+
+
+2.-Una palabra reservada son palabras que tienen un uso significado.
+
+3.-No crar variables iniciando con numeros
+
+4.-Se recomienda nombrar variables con camelCase (pizzaGrande)
+
+5.-En JS cuando se tiene un punto "objeto.metodo" se refiere cuando se quiere acceder al método de un objeto
+
+6.-Nombrar las variables con un nombre significativo.
