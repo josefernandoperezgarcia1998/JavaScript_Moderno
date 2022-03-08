@@ -244,3 +244,24 @@ p.ej. "crear-pizza.js" es correcto PERO es mala práctica hacer "crearPizza.js"
 
 2.-Usualmente, esa información dentro del arreglo es del mismo tipo de dato.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******22.-Más detalles sobre los arreglos******
+-Ver script arreglo2.js
