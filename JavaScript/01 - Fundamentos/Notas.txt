@@ -263,5 +263,63 @@ p.ej. "crear-pizza.js" es correcto PERO es mala práctica hacer "crearPizza.js"
 
 
 
-******22.-Más detalles sobre los arreglos******
+******23.-Más detalles sobre los arreglos******
 -Ver script arreglo2.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******24.-Objetos literales******
+1.-En JavaScript las "{}" es un objeto literal
+2.-Un objeto lit. es un objeto que tiene pares de valores 
+	key: value
+3.-Para crear un objeto se tiene la sig. estructura
+
+let variable = {
+	clave: valor,
+}
+
+4.- En un objeto literal se puede agregar tanto strings, number, objetos, arreglos, etc
+
+5.-En un objeto literal si se requiere "tener un nombre de valor con caracter especial" 
+se debe de poner de la siguiente forma: 'nombre-especial', haciendo referencia a que se 
+debe de crear con comillas simples y con separación de guión medio
+
+6.-Para acceder a las propiedades de un objeto literario se puede utilizar el "." p. ej.
+objeto.propiedad
+
+6.-Si se requiere acceder al valor de una propiedad (ejemplo que el objeto tenga una propiedad que sea otro objeto o arreglo)
+se puede acceder de la misma forma del ".", p. ej.
+objeto.propiedad.propiedad
+
+*ver script "objeto-literal.js"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
