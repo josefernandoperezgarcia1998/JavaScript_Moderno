@@ -321,5 +321,21 @@ objeto.propiedad.propiedad
 
 
 
+******24.-Más detalles sobre objetos literales******
+
+1.-Para eliminar una propiedad de un objeto se puede usar la palabra reservada "delete" p. ej.
+"delete objeto.propiedad"
+
+2.-Para poder saber el índice de las propiedades de un objeto se puede hacer por medio de "Object.entries()"
+
+3.-Para bloquear que alguien "modifique" los valores de las propiedades del objeto se utiliza "Objet.freeze()"
+
+4.-Para evitar que se modifique un objeto se puede utilizar como "const" el objeto
+
+5.-PAra obtener las propiedades de un objeto se puede acceder con "Object.getOwnPropertyNames()";
+
+
+6.-PAra obtener los valores de un objeto se puede acceder con "Object.values()";
+
 
 
