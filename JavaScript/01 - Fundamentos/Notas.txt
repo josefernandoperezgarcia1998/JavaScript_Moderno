@@ -377,3 +377,51 @@ objeto.propiedad.propiedad
 4.-Las funciones de flecha son un pco más eficiente a comparación de las funciones normales
 
 5.-Las arrow function son conocidas también como funciones anónimas/lambda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******25.-Retorno de las funciones******
+
+1.-Una función retorna undefined
+
+2.-En JS si no se pone return en una función, se retorna undefined
+
+3.-Una función no va a leer nada que esté después de un "return"
+
+4.-En una funcion se puede retornar un arreglo
+
+5.-Las funciones de flecha son anonimas y funciones de flecha normales
+
+function normal flecha: const variable = function() => { 
+		.....
+	}
+
+function anonima flecha: const variable = () => {
+		.....
+	}
