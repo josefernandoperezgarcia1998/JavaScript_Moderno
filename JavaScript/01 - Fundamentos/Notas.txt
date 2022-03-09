@@ -339,3 +339,41 @@ objeto.propiedad.propiedad
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******25.-funciones básica y de flecha******
+1.-Centrar la lógica de un procedimiento que podemos ejecutar varias veces.
+
+2.-Las funciones deben hacerse siempre hasta arriba del script
+
+3.-Una función anonima: Su beneficio es que la función como tal no lleva un nombre, sino que ahora lo lleva una variable
+	se puede declarar de esta forma
+	const variable = function() {
+		Código...
+	}
+
+4.-Las funciones de flecha son un pco más eficiente a comparación de las funciones normales
+
+5.-Las arrow function son conocidas también como funciones anónimas/lambda
