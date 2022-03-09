@@ -461,3 +461,23 @@ function anonima flecha: const variable = () => {
 
 
 
+
+
+
+
+
+
+
+
+
+******28.-Valor referencia y romper la referencia******
+
+1.-En JS todo es un objeto
+2.-En JS los valores primitivos se manejan por valor 
+3.-En JS los objetos se manejan por referencia
+4.-Cuando se usa {...propiedad} se le conoce como "spread"
+5.-Cuando se usa ({...argumento/propiedad}) de una función flecha se le conoce como "rest"
+6.-Con el rest y spread se permite romper la referencia por como se usan las asignaciones 
+7.-El romper la referencia se refiere a que, vamos a dejar que JS interprete que dos mismas variables con el mismo valor tienen el mismo espacio de memoria y cada uno será independiente
+8.-El método slice() permite romper la referencia pero es tardado
+9.-El usar el "spread" permite romper la referencia pero es más rápido
