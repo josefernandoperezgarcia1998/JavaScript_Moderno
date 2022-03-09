@@ -406,7 +406,7 @@ objeto.propiedad.propiedad
 
 
 
-******25.-Retorno de las funciones******
+******26.-Retorno de las funciones******
 
 1.-Una función retorna undefined
 
@@ -425,3 +425,39 @@ function normal flecha: const variable = function() => {
 function anonima flecha: const variable = () => {
 		.....
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******27.-Pro tip: Funciones, argumentos y destructuración de objetos******
+<VER SCRIPT>
+
+
+
+
+
+
+
+
+
+
+
+
