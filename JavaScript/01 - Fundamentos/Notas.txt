@@ -481,3 +481,44 @@ function anonima flecha: const variable = () => {
 7.-El romper la referencia se refiere a que, vamos a dejar que JS interprete que dos mismas variables con el mismo valor tienen el mismo espacio de memoria y cada uno será independiente
 8.-El método slice() permite romper la referencia pero es tardado
 9.-El usar el "spread" permite romper la referencia pero es más rápido
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******29.-if else******
+1.- "new" permite crear una nueva instancia de un objeto
+2.-El === significa evaluar que no solos los valores internos sean los mismos, sino el tipado tiene que ser identico 
+	p.ej: 5 (number) tiene que ser identico a otro 5 number
+
+
+	5 === 5 : Cierto
+	5 === '5': falso
+	5 == '5': Cierto
+	5 == 5: Cierto
+	5 = 5 error
+
+ 
+3.-El == significa querer confirmar si el valor es el mismo al que se está comparando y no me importa el tipo (number, string, etc)
