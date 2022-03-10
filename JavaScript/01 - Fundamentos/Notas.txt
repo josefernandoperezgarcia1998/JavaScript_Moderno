@@ -594,3 +594,46 @@ El operador OR sirve para comparar (si esto o esto)
 
 ******32.- Pro tip: Asignaciones con operadores ******
 >Ver script<
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******33.-Operador condicional ternario ******
+1.-El operador ternario es lo mismo que un if pero de forma simplificada
+	condición ? asignación : otra_asignación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******34.-Pro tip: Otros usos del operador ternario ******
+
+1.-Se puede hacer un operador ternario anidado
+2.-Se puede usar en arreglos
+3.-Se puede usar en arrow functions
