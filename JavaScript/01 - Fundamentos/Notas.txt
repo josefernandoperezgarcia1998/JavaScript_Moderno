@@ -573,3 +573,24 @@ function anonima flecha: const variable = () => {
 El operador NOT sirve para negar (Lo contrario a esto)
 El operador AND sirve para comparar (si esto y esto)
 El operador OR sirve para comparar (si esto o esto)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******32.- Pro tip: Asignaciones con operadores ******
+>Ver script<
