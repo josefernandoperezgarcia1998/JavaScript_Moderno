@@ -35,3 +35,35 @@ if ( dia === 0 ) {
 } else {
     console.log('No es lunes, martes ó domingo');
 }
+
+
+
+
+
+
+// Laboratorio if-else >alternativa<
+
+
+// Obtener el día se la semana por medio de objetos
+const semanaObjeto = {
+    domingo: 0,
+    lunes: 1,
+    martes: 2,
+    miercoles: 3,
+    jueves: 4,
+    viernes: 5,
+    sabado: 6,
+    domingo: 7,
+};
+
+dia = 3;
+
+const obtenerDia = Object.entries(semanaObjeto);
+console.log( 'Dia de la semana con objeto: ', obtenerDia[dia] );
+
+
+// Obtener el día de al semana por medio de arreglos
+const semanaArreglo = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
+// console.log(semanaArreglo);
+
+console.log( 'Dia de la semana con arreglo: ', semanaArreglo[dia] );

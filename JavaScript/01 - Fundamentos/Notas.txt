@@ -522,3 +522,26 @@ function anonima flecha: const variable = () => {
 
  
 3.-El == significa querer confirmar si el valor es el mismo al que se está comparando y no me importa el tipo (number, string, etc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******30.-Laboratorio - Alternativa de if-else******
+1.-Aprendí en este laboratorio que, en vez de usar if y else para saber el día de la semana se pueden
+	utilizar objetos y arreglos, ya que el indice del objeto y arreglo pudo ser clave.
