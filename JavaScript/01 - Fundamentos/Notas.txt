@@ -545,3 +545,31 @@ function anonima flecha: const variable = () => {
 ******30.-Laboratorio - Alternativa de if-else******
 1.-Aprendí en este laboratorio que, en vez de usar if y else para saber el día de la semana se pueden
 	utilizar objetos y arreglos, ya que el indice del objeto y arreglo pudo ser clave.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******31.- Lógica booleana******
+
+El operador NOT sirve para negar (Lo contrario a esto)
+El operador AND sirve para comparar (si esto y esto)
+El operador OR sirve para comparar (si esto o esto)
