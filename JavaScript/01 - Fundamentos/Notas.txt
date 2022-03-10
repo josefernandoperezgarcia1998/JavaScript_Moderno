@@ -637,3 +637,38 @@ El operador OR sirve para comparar (si esto o esto)
 1.-Se puede hacer un operador ternario anidado
 2.-Se puede usar en arreglos
 3.-Se puede usar en arrow functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******35.- Switch******
+
+<Ver script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******36.- ******
