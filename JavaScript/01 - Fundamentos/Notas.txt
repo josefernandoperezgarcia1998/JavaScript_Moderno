@@ -671,4 +671,8 @@ El operador OR sirve para comparar (si esto o esto)
 
 
 
-******36.- ******
+******36.- While y Do-While******
+1.-El while es lo mismo que el do while, con la excepción de que el do while se ejecuta si o si la primera vez
+2.-Una manera más limpia de poner las condicionales del while/do-while es "variable[iterador]"
+3.-JS determina falso a los siguientes valores null, undefined y false en un ciclo while si se ponen en su condicion
+4.-Si no existe un valor dentro de lo que se está comparando en la condición va a tirar undefinied
