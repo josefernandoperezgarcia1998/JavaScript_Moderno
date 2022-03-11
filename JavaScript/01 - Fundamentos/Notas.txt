@@ -676,3 +676,22 @@ El operador OR sirve para comparar (si esto o esto)
 2.-Una manera más limpia de poner las condicionales del while/do-while es "variable[iterador]"
 3.-JS determina falso a los siguientes valores null, undefined y false en un ciclo while si se ponen en su condicion
 4.-Si no existe un valor dentro de lo que se está comparando en la condición va a tirar undefinied
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******37.-Ciclos for ******
+Ver scripts
