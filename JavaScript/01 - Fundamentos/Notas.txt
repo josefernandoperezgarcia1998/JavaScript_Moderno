@@ -695,3 +695,25 @@ El operador OR sirve para comparar (si esto o esto)
 
 ******37.-Ciclos for ******
 Ver scripts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******************
+***LABORATORIO BLACKJACK***
+******************
