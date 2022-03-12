@@ -722,3 +722,33 @@ Ver scripts
 ******52.-Introducción al DOM y su manipulación******
 
 Document Object Model: Obtener acceso a los elementos HTML y poder manipularlos 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******62.-Patrón módulo******
+
+1.-El patrón módulo es una arrow function autoinvocable (que se llama así misma) 
+2.-El patrón módulo sirve para mantener el código "protegido"
+3.-Puede utilizarse dentro del patrón módulo una línea de código 'use strict', eso funciona para que JS se ponga de forma estricta con nuestro código, evitar errores....
+
