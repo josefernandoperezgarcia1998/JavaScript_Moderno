@@ -18,6 +18,8 @@ let puntosJugador = 0,
 //Referencias del HTML
 const btnPedir = document.querySelector('#btnPedir');
 
+const divCartasJugador = document.querySelector('#jugador-cartas');
+
 const puntosHTML = document.querySelectorAll('small');
 
 
@@ -54,8 +56,7 @@ const pedirCarta = () => {
     return cartaObtenida;
 }
 
-// pedirCarta(); 
-
+//Arrow function para saber el valor de la carta en valor number
 const valorCarta = ( carta ) => {
     
     const valor = carta.substring(0, carta.length - 1);
@@ -78,8 +79,23 @@ btnPedir.addEventListener('click', () => {
 
     const carta = pedirCarta();
     
+    // Agregando el valor de la carta a puntosJugeador (jugador 1)
     puntosJugador = puntosJugador + valorCarta(carta);
     puntosHTML[0].innerText = puntosJugador;
     
-    
+    // Creando las cartas en el html
+    const imgCarta = document.createElement('img');
+    imgCarta.src = `assets/cartas/${ carta }.png`;
+    imgCarta.classList.add('carta');
+    divCartasJugador.append(imgCarta);
+
+    // Evaluando el estado de los puntos del jugador 1
+    if ( puntosJugador > 21 ) {
+        console.warn('Perdiste');
+        btnPedir.disabled = true;
+    } else if ( puntosJugador === 21 ) {
+        console.warn('21');
+        btnPedir.disabled = true;
+    }
+
 });
