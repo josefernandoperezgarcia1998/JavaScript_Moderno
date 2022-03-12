@@ -717,3 +717,8 @@ Ver scripts
 ******************
 ***LABORATORIO BLACKJACK***
 ******************
+
+
+******52.-Introducción al DOM y su manipulación******
+
+Document Object Model: Obtener acceso a los elementos HTML y poder manipularlos 
