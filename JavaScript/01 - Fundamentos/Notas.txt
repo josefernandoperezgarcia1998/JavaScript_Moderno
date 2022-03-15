@@ -752,3 +752,42 @@ Document Object Model: Obtener acceso a los elementos HTML y poder manipularlos
 2.-El patrón módulo sirve para mantener el código "protegido"
 3.-Puede utilizarse dentro del patrón módulo una línea de código 'use strict', eso funciona para que JS se ponga de forma estricta con nuestro código, evitar errores....
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******72.-Clases básicas en JS******
+1.-Para crear una clase se debe de crear iniciando primero con la primer letra en mayuscula y usanto el UpperCamelCase
+2.-El método constructor es más que nada el primer método que se va a ejecuar cuando se haga una instancia de esa clase/objeto
+3.-Una buena práctica es inicializar las propiedades de una clase al inicio de la misma, después de las llaves
+4.-Cuando se quiere hacer referencia a las propiedades de una clse se utiliza "this.propiedad" para que el scope de JS pueda reconocer las propiedades
