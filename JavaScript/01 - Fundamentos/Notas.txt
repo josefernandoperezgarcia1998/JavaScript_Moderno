@@ -869,3 +869,25 @@ variable.metodo();
 2.-El set asigna 
 3.-El get obtiene
 4.-Nomenclatura para set y get "set setNombre(nombre){}" "get getNombre(){}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******75.-Propiedades, gets y métodos estáticos******
+1.-Un método ó tipo/propiedad de propiedad estático es es cuando se requiere información de una clase SIN tener la necesidad de INSTANCIAR la clase.
+2.-El static puede referirse con get (ver el script).

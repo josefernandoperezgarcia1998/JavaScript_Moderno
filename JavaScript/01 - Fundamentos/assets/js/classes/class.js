@@ -1,5 +1,15 @@
 class Persona { 
 
+    static _conteo = 0;
+    static get conteo() {
+        return Persona._conteo + ' instancias';
+    }
+
+    static mensaje() {
+        console.log( this.nombre );
+        console.log( 'Hola a todos, soy un método estático ');
+    }
+
     // Inicializando propiedades de la clase, no son variables
     nombre = '';
     codigo = '';
@@ -10,6 +20,8 @@ class Persona {
         this.codigo = codigo;
         this.nombre = nombre;
         this.frase = frase;
+
+        Persona._conteo++;
     }
 
     set setComidaFavorita(comida) {
@@ -48,4 +60,15 @@ const ironman = new Persona('Tony', 'iron', 'Millonario, modelo y actor');
 
 spiderman.setComidaFavorita = 'Pay de cereza de al Tía May';
 
-console.log(spiderman.getComidaFavorita);
+// console.log(spiderman.getComidaFavorita);
+
+// console.log(`La clase se ejecutó  ${Persona._conteo}`);
+
+console.log('Conteo estático: ', Persona._conteo);
+console.log(Persona.conteo);
+Persona.mensaje();
+
+Persona.propiedadExterna = 'Hola mundo';
+
+console.log(Persona.propiedadExterna);
+console.log(Persona);
