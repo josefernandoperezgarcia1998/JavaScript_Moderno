@@ -791,3 +791,81 @@ Document Object Model: Obtener acceso a los elementos HTML y poder manipularlos
 2.-El método constructor es más que nada el primer método que se va a ejecuar cuando se haga una instancia de esa clase/objeto
 3.-Una buena práctica es inicializar las propiedades de una clase al inicio de la misma, después de las llaves
 4.-Cuando se quiere hacer referencia a las propiedades de una clse se utiliza "this.propiedad" para que el scope de JS pueda reconocer las propiedades
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******73.-Métodos en las clases******
+1.-Se pueden crear métodos en una clase de la sig forma
+nombreMetodo() {
+
+....
+}
+
+2.se puede llamar un método dentro de la misma clase y dentro de un mismo método, así:
+
+metodoUno() {
+
+
+
+}
+
+metodoDos() {
+
+this.metodoUno();
+
+}
+
+3.-Para mandar a llamar un método de manera externa de la clase es por medio de el nombre de una variable y seguido del método:
+variable.metodo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******73.-Gets y sets******
+1.-Es opcional inicializar las propiedades de una clase seguido de las llaves... Se puede inicializar dentro del constructor de la misma.
+2.-El set asigna 
+3.-El get obtiene
+4.-Nomenclatura para set y get "set setNombre(nombre){}" "get getNombre(){}"

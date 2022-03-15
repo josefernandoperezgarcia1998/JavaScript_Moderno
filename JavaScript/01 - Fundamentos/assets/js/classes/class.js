@@ -4,11 +4,20 @@ class Persona {
     nombre = '';
     codigo = '';
     frase = '';
+    comida = '';
 
     constructor(nombre, codigo, frase) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.frase = frase;
+    }
+
+    set setComidaFavorita(comida) {
+        this.comida = comida.toUpperCase();
+    }
+
+    get getComidaFavorita() {
+        return `La comida fav de ${this.nombre} es: ${this.comida}`;
     }
 
     quienSoy() {
@@ -32,5 +41,11 @@ const ironman = new Persona('Tony', 'iron', 'Millonario, modelo y actor');
 // spiderman.quienSoy();
 // ironman.quienSoy();
 
-spiderman.miFrase();
-ironman.miFrase();
+// spiderman.miFrase();
+// ironman.miFrase();
+
+// console.log(spiderman);
+
+spiderman.setComidaFavorita = 'Pay de cereza de al Tía May';
+
+console.log(spiderman.getComidaFavorita);
