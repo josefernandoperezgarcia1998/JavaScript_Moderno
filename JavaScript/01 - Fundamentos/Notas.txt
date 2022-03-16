@@ -932,3 +932,18 @@ variable.metodo();
 
 
 
+
+
+
+
+
+
+
+
+
+******78.-Singleton******
+1.-En JS el "singleton" sirve para poder compartir información en el proyecto de manera global
+2.-El singleton en JS apunta a un espacio de memoria en específico, por lo que si se quiere mandar a llamar a un objeto en específico pues se llamará... Pero
+si se tiene que llamar a todo un numero de valores no podrá obtenerlos, obtendrá solo el primero, pero no todos.
+	
+
