@@ -891,3 +891,27 @@ variable.metodo();
 ******75.-Propiedades, gets y métodos estáticos******
 1.-Un método ó tipo/propiedad de propiedad estático es es cuando se requiere información de una clase SIN tener la necesidad de INSTANCIAR la clase.
 2.-El static puede referirse con get (ver el script).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******76.-Subclases******
+
+1.-Para heredar de una clase en js se utiliza el "extends"
+2.-En las subclases se puede crear un constructor, siempre y cuando se llame al instante al constructor de la clase padre donde se hereda
+3.-Se puden utilizar los mismos métodos de una clase padre dentro de una hija por medio de "super.nombreMetodo()"
