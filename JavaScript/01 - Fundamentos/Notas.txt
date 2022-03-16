@@ -947,3 +947,24 @@ variable.metodo();
 si se tiene que llamar a todo un numero de valores no podrá obtenerlos, obtendrá solo el primero, pero no todos.
 	
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******79.-PRO TIP: MULTIPLES CONSTRUCTORES******
+1.-Se puede crear un "constructor" extra en una clase para manipular las propiedades de una clase por mediod de un método estatico retornando una instancia de la misma clase
+
+2.-Sirve para crear instancias de diferentes formas
