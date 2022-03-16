@@ -915,3 +915,20 @@ variable.metodo();
 1.-Para heredar de una clase en js se utiliza el "extends"
 2.-En las subclases se puede crear un constructor, siempre y cuando se llame al instante al constructor de la clase padre donde se hereda
 3.-Se puden utilizar los mismos métodos de una clase padre dentro de una hija por medio de "super.nombreMetodo()"
+
+
+
+
+
+
+
+
+
+
+******77.-Propiedades privadas******
+
+1.-En JS se puede poner una propiedad como privada con el "gatito", ejem: ver script (esnext.js)
+
+
+
+
